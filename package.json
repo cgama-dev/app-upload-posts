@@ -1,0 +1,25 @@
+{
+  "name": "app-react-upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd frontend && yarn start",
+    "server": "cd backend && yarn start",
+    "start": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgama-dev/app-upload-posts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgama-dev/app-upload-posts/issues"
+  },
+  "homepage": "https://github.com/cgama-dev/app-upload-posts#readme",
+  "devDependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
